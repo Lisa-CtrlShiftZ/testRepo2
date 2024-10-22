@@ -1,0 +1,108 @@
+body {
+    background: rgb(64,44,119);
+    background: linear-gradient(90deg, rgba(64,44,119,1) 0%, rgba(83,167,180,1) 73%, rgba(221,238,241,1) 100%);
+    margin: 0;
+    width: 100%;
+}
+
+body p, h3, li, label {
+ color: white;
+ font-family: roboto, sans-serif;
+}
+
+/* NAVIGATIE BAR */
+nav {
+    display: flex;
+    padding: 1%;
+}
+
+.nav-img {
+    flex-grow: 1;
+}
+
+.nav-img img {
+    width: 100px;
+    padding-left: 6%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 10%;
+    flex-grow: 1;
+    padding-right: 6%;
+}
+
+nav ul li {
+    color: white;
+}
+
+/* TWEE VAKJES */
+.koepel {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 10%;
+}
+
+#speed {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.boxLeft p {
+    font-weight: 100;
+}
+
+.boxLeft {
+    width: 30%;
+    background-image: url("plasma.png");
+}
+
+.boxRight {
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+width: 30%;
+padding-left: 3%;
+display: flex;
+flex-direction: column;
+}
+
+.boxRight input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 6%;
+}
+
+.boxRight button {
+    color: white;
+    background-color: rgb(38, 38, 118);
+    font-family: roboto;
+    border: none;
+    width: 75%;
+    padding: 10px;
+}
+
+.boxRight label {
+    color: white;
+    margin: 0;
+}
+
+.boxRight p {
+    font-size: .8rem;
+    width: 75%;
+    color: white;
+}
+
+.boxRight h3 {
+    font-weight: 100;
+}
